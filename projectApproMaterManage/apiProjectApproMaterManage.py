@@ -38,6 +38,10 @@ def getApproMaterList():
             os.path.basename(__file__),
             sys._getframe(0).f_code.co_name,
             "---------- 승인 자재 리스트 조회 시작 ----------",
+            sys._getframe(0).f_code.co_name,
+            "---------- 승인 자재 리스트 조회 시작 ----------",
+            sys._getframe(0).f_code.co_name,
+            "---------- 승인 자재 리스트 조회 시작 ----------",
         )
 
         token = request.headers.get("token")
